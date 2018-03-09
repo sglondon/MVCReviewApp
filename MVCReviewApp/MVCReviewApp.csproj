@@ -163,6 +163,7 @@
     <Content Include="Content\images\coloredbldgs.jpeg" />
     <Content Include="Content\images\minibus.jpeg" />
     <Content Include="Content\images\signs.jpeg" />
+    <Content Include="Content\images\star-half-empty.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

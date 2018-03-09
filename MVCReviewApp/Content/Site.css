@@ -38,7 +38,7 @@ body {
 
 }
 
-h2#cover {
+h2 {
     text-align: center;
     font-family: cursive;
     font-weight: bold;
@@ -51,6 +51,26 @@ p#cover {
     font-size: large;
     color: darkslategray;
 }
-a.btn btn-default {
-    background-color!important: #e5f775;
+
+
+/*Styling for Reviews Index Page*/
+
+
+h3#revcap {
+    font-family: cursive;
+    font-style: italic;
+    font-weight: bold;
+    color: #68c7c1;
+    text-align: center;
 }
+
+p#revp{
+    font-family:cursive;
+    
+    text-align:center;
+}
+
+div#revcolor.caption {
+  background-color:  #e5f775;
+}
+
