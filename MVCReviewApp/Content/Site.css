@@ -22,3 +22,35 @@ select,
 textarea {
     max-width: 280px;
 }
+/*Background Image and Display Homepage*/
+.jumbotron {
+    background-image: url('images/coloredbldgs.jpeg');
+    background-size: cover;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    background-color: #94d9ce;
+    color: #e5f775;
+}
+
+body {
+    background-color:#f97979;
+
+}
+
+h2#cover {
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    color:darkslategray;
+}
+p#cover {
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: large;
+    color: darkslategray;
+}
+a.btn btn-default {
+    background-color!important: #e5f775;
+}
