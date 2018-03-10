@@ -1,15 +1,30 @@
 ﻿div.card-body {
-    background-color: #e5f775;
-    text-align:center;
-    
+    background-color: #b4e095;
+    text-align: center;
+    font-size:large;
 }
-div.card-header{
-    background-color:white;
-    text-align:center;
-    font-family:cursive;
-    font-weight:bold;
+div.card-header {
+    background-color: white;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    color: #57b4cc;
+}
+h3.card-title{
+    font-style:italic;
 }
 body {
-    background-image: url('images/feedback.jpeg');
-    background-size:cover;
+    background-image: url('images/beach1.jpeg');
+    background-size: cover;
+}
+div.card-header{
+    text-align:left;
+    font-family:cursive;
+    font-size:larger;
+}
+div.card-footer{
+    background-color:white; 
+}
+h2#dets {
+    color: #ffeb24;
 }

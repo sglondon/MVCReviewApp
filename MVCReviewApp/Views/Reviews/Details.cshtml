@@ -4,15 +4,16 @@
     ViewBag.Title = "Details";
 }
 
-<h2>Details</h2>
+<h2 id="dets">Review Details</h2>
 
 <div>
-    <h4>Reviews</h4>
+    
 
-    <div class="card border-primary mb-3" style="max-width: 18rem;">
-        <div class="card-header">@Html.DisplayFor(model => model.TravelCategory.Name)</div>
+    <div class="card border-primary mb-3" style=" w-75">
+
+        <div class="card-header">Type of Review: @Html.DisplayFor(model => model.TravelCategory.Name)</div>
         <div class="card-body text-primary">
-            <h5 class="card-title">@Html.DisplayFor(model => model.Title)</h5>
+            <h3 class="card-title">@Html.DisplayFor(model => model.Title)</h3>
             <p class="card-text">@Html.DisplayFor(model => model.Review).</p>
             <p>@Html.DisplayFor(model => model.Rating) Stars <img src="~/Content/images/star-half-empty.png" /></p>
             
