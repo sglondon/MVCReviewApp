@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<MVCReviewApp.Models.Reviews>
-
+<link href="~/Content/reviewindex.css" rel="stylesheet" />
 @{
     ViewBag.Title = "Index";
 }
@@ -11,18 +11,22 @@
 </p>
 <div class="row">
     @foreach (var item in Model)
+        
     {
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <div id="revcolor" class="caption" >
+                <div id="revcolor" class="caption">
                     <h3 id="revcap">       @Html.DisplayFor(modelItem => item.Title)</h3>
 
 
-                    <p id="revp">    @Html.DisplayFor(modelItem => item.Review)         </p="revcap">
+                    <p id="revp">    @Html.DisplayFor(modelItem => item.Review)         </p>
                     <p>
                         @Html.DisplayNameFor(model => model.Rating): @Html.DisplayFor(modelItem => item.Rating) Stars <img src="~/Content/images/star-half-empty.png" />
                     </p>
                 </div>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ReviewID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ReviewID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ReviewID })
             </div>
         </div>
     }
