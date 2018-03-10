@@ -3,3 +3,13 @@
     text-align:center;
     
 }
+div.card-header{
+    background-color:white;
+    text-align:center;
+    font-family:cursive;
+    font-weight:bold;
+}
+body {
+    background-image: url('images/feedback.jpeg');
+    background-size:cover;
+}
