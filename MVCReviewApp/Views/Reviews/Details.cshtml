@@ -9,24 +9,26 @@
 <div>
     
 
-    <div class="card border-primary mb-3" style=" w-75">
-
+    <div class="card border-primary mb-3" style="w-75">
+        
         <div class="card-header">Type of Review: @Html.DisplayFor(model => model.TravelCategory.Name)</div>
         <div class="card-body text-primary">
             <h3 class="card-title">@Html.DisplayFor(model => model.Title)</h3>
-            <p class="card-text">@Html.DisplayFor(model => model.Review).</p>
-            <p>@Html.DisplayFor(model => model.Rating) Stars <img src="~/Content/images/star-half-empty.png" /></p>
             
+           
+            <p class="card-text"><img src="~/Content/images/kylie-jenner.png" />@Html.DisplayFor(model => model.Review).</p>
+            <p>@Html.DisplayFor(model => model.Rating) Stars <img src="~/Content/images/star-half-empty.png" /></p>
+
             <div class="card-footer">
-                <med class="text-muted">@Html.DisplayFor(model => model.PublishedDate)</med>
+                <med class="text-muted">Date Posted:  @Html.DisplayFor(model => model.PublishedDate)</med>
             </div>
-            </div>
-
-
-
-
-            @*<a href="#" class="btn btn-primary">Go somewhere</a>*@
         </div>
+
+
+
+
+        @*<a href="#" class="btn btn-primary">Go somewhere</a>*@
+    </div>
 </div>
     @*<p>Review Type:  @Html.DisplayFor(model => model.TravelCategory.Name)</p>
             <p>  @Html.DisplayFor(model => model.Review)</p>
@@ -38,51 +40,6 @@
 
 
 
-    @*<hr />
-            <dl class="dl-horizontal">
-                <dt>
-                    @Html.DisplayNameFor(model => model.TravelCategory.Name)
-                </dt>
-
-                <dd>
-                    @Html.DisplayFor(model => model.TravelCategory.Name)
-                </dd>
-
-                <dt>
-                    @Html.DisplayNameFor(model => model.Title)
-                </dt>
-
-                <dd>
-                    @Html.DisplayFor(model => model.Title)
-                </dd>
-
-                <dt>
-                    @Html.DisplayNameFor(model => model.Review)
-                </dt>
-
-                <dd>
-                    @Html.DisplayFor(model => model.Review)
-                </dd>
-
-                <dt>
-                    @Html.DisplayNameFor(model => model.PublishedDate)
-                </dt>
-
-                <dd>
-                    @Html.DisplayFor(model => model.PublishedDate)
-                </dd>
-
-                <dt>
-                    @Html.DisplayNameFor(model => model.Rating)
-                </dt>
-
-                <dd>
-                    @Html.DisplayFor(model => model.Rating)
-                </dd>
-
-            </dl>
-        </div>
-        <p>
-            @Html.ActionLink("Edit", "Edit", new { id = Model.ReviewID }) |
-            @Html.ActionLink("Back to List", "Index")
-        </p>*@
+   
+           
+        

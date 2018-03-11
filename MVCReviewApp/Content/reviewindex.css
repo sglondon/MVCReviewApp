@@ -1,4 +1,6 @@
-﻿body {
+﻿/*Background image for reviews page*/
+
+body {
     background-image: url('images/writingreview.jpg');
     background-size:cover;
 }

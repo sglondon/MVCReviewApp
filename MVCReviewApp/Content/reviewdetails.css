@@ -1,4 +1,6 @@
-﻿div.card-body {
+﻿/*Styling for Review Details*/
+
+div.card-body {
     background-color: #b4e095;
     text-align: center;
     font-size:large;
@@ -9,6 +11,11 @@ div.card-header {
     font-family: cursive;
     font-weight: bold;
     color: #57b4cc;
+}
+med.text-muted {
+    font-family: cursive;
+    font-weight: bold;
+    color:#57b4cc
 }
 h3.card-title{
     font-style:italic;
@@ -24,6 +31,7 @@ div.card-header{
 }
 div.card-footer{
     background-color:white; 
+    text-align:left;
 }
 h2#dets {
     color: #ffeb24;
